@@ -27,6 +27,7 @@ public:
 
 	void handleMouseEvents(SDL_Event* event);
 
+	// function pointer definition
 	typedef void(*EventHandler)(Button*);
 	bool addEventListener(Event event, EventHandler handler);
 

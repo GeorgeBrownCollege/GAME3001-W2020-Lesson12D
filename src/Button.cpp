@@ -85,6 +85,7 @@ void Button::handleMouseEvents(SDL_Event* event)
 				{
 					if (m_mouseOver)
 					{
+						// call function that is associated with the MOUSE_OVER event
 						m_events[MOUSE_OVER](this);
 						m_mouseOverActive = true;
 					}
@@ -113,7 +114,7 @@ void Button::handleMouseEvents(SDL_Event* event)
 					if ((m_events[CLICK]) && (m_mouseOver))
 					{
 						m_mouseButtonClicked = true;
-						m_events[CLICK](this); // call click event
+						m_events[CLICK](this); // call click event handler
 					}
 					break;
 				}

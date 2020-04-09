@@ -31,6 +31,9 @@
     <Filter Include="Enums">
       <UniqueIdentifier>{69bcf506-2bc6-4cdf-8f1d-6d6aff28c8e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{2bdd71db-7f38-4d8a-b2eb-274db1eda94e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
@@ -134,6 +137,15 @@
     </ClCompile>
     <ClCompile Include="..\src\ScoreBoardManager.cpp">
       <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FloatConsideration.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Consideration.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\State.cpp">
+      <Filter>AI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -282,6 +294,18 @@
       <Filter>Managers</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Event.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Consideration.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FloatConsideration.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\State.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ActionState.h">
       <Filter>Enums</Filter>
     </ClInclude>
   </ItemGroup>
